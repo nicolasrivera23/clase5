@@ -1,0 +1,85 @@
+* {
+  background-color: grey;
+}
+
+html {
+
+}
+
+body {
+
+}
+
+/* inicio etiquetas semánticas
+se agregan bordes para diferenciarlas */
+header {
+  border: 2px solid black;
+  padding: 2%;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+}
+header li {
+  /*con display:inline ubico los items de la lista de forma horizontal y elimino el circulo negro de cada item,
+  puedo utilizar la propiedad list-style-type:none 
+  para eliminar el circulo negro.
+  */
+  display: inline;
+  margin: 1%;
+}
+
+main {
+  border: 2px solid black;
+  margin: 2%;
+}
+
+section {
+  border: 2px solid chartreuse;
+  margin: 2%;
+}
+
+footer {
+  border: 2px solid blueviolet;
+  background-color: rgb(238, 130, 238);
+  margin: 2%;
+  padding: 2%;
+  text-align: center;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+/* fin etiquetas semánticas */
+
+/* inicio otras etiquetas */
+h2 {
+  color: violet;
+  background-color: pink;
+}
+p {
+  color: white !important;
+}
+a {
+  text-decoration: none;
+  color: chartreuse;
+}
+/* fin otras etiquetas */
+
+/* inicio clases */
+.titulo_noorder {
+  background-color: yellow;
+  color: green;
+}
+.mi_clase {
+  color: lime;
+}
+/* fin clases */
+
+/* inicio id's*/
+#listaorder_id {
+  background-color: blueviolet;
+  color: limegreen;
+}
+
+#parrafo_id {
+  color: pink;
+}
+/* fin id's */
